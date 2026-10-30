@@ -1,0 +1,1371 @@
+{
+  "design_version": "pages-field-v1",
+  "tasks": [
+    {
+      "task_id": "V1T001",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP01",
+          "levels": {
+            "C1": 2,
+            "C3": 2,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S01",
+          "image_path": "scene-binary-S01-1c60fff25a01.png",
+          "image_sha256": "1c60fff25a01c77a9a304f7ee7d7cda414a8b8bdc71f45f88abfb71f36920ad3",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP08",
+          "levels": {
+            "C1": 2,
+            "C3": 3,
+            "C7": 1,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S08",
+          "image_path": "scene-binary-S08-0e2449e5e065.png",
+          "image_sha256": "0e2449e5e0659e02c484e43af8b2cf40dc0b6edb31fbc621984e4e49300549d8",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T002",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP06",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 1
+          },
+          "image_id": "binary-S06",
+          "image_path": "scene-binary-S06-a1563dea23f1.png",
+          "image_sha256": "a1563dea23f114184bd936b5e689d8c0f2e06737e2b74c8930cc361c47cb9d35",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP08",
+          "levels": {
+            "C1": 2,
+            "C3": 3,
+            "C7": 1,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S08",
+          "image_path": "scene-binary-S08-0e2449e5e065.png",
+          "image_sha256": "0e2449e5e0659e02c484e43af8b2cf40dc0b6edb31fbc621984e4e49300549d8",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T003",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP02",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S02",
+          "image_path": "scene-binary-S02-f6955a3c3d4b.png",
+          "image_sha256": "f6955a3c3d4b4892f1ac65ce75a8702c4f09036339627c5141be584125a7c0a1",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP12",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S12",
+          "image_path": "scene-binary-S12-704af5ba8db0.png",
+          "image_sha256": "704af5ba8db0708df5a6f8a2c956472df622b4e913f9a1aba484d696030383b4",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T004",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP01",
+          "levels": {
+            "C1": 2,
+            "C3": 2,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S01",
+          "image_path": "scene-binary-S01-1c60fff25a01.png",
+          "image_sha256": "1c60fff25a01c77a9a304f7ee7d7cda414a8b8bdc71f45f88abfb71f36920ad3",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP12",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S12",
+          "image_path": "scene-binary-S12-704af5ba8db0.png",
+          "image_sha256": "704af5ba8db0708df5a6f8a2c956472df622b4e913f9a1aba484d696030383b4",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T005",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP04",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 2
+          },
+          "image_id": "binary-S04",
+          "image_path": "scene-binary-S04-76f8b060d78a.png",
+          "image_sha256": "76f8b060d78addd49d98e0b753f19a40c08a01df29574e014052123b1f6e5cf9",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP11",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 2,
+            "C9": 1
+          },
+          "image_id": "binary-S11",
+          "image_path": "scene-binary-S11-d5103c296b14.png",
+          "image_sha256": "d5103c296b148df4d4fac0d4c507d1db45d873529c3682aadedbf3063cec4342",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T006",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP04",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 2
+          },
+          "image_id": "binary-S04",
+          "image_path": "scene-binary-S04-76f8b060d78a.png",
+          "image_sha256": "76f8b060d78addd49d98e0b753f19a40c08a01df29574e014052123b1f6e5cf9",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP07",
+          "levels": {
+            "C1": 1,
+            "C3": 2,
+            "C7": 1,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S07",
+          "image_path": "scene-binary-S07-7a9b296c829a.png",
+          "image_sha256": "7a9b296c829a8ce8bc73abb37202cf88963ee787477051e638cd4d534917cc81",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T007",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP05",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S05",
+          "image_path": "scene-binary-S05-b3825bfde2e7.png",
+          "image_sha256": "b3825bfde2e78f7a7f499589820e1ba642fec1bc38121eb582acd59f3a3c9749",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP09",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S09",
+          "image_path": "scene-binary-S09-0b3d67c278ab.png",
+          "image_sha256": "0b3d67c278ab0961bc60c554b9e0515a1c5aff75e158bbef62b6676fbc3a2a82",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T008",
+      "block_id": "B1",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP06",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 1
+          },
+          "image_id": "binary-S06",
+          "image_path": "scene-binary-S06-a1563dea23f1.png",
+          "image_sha256": "a1563dea23f114184bd936b5e689d8c0f2e06737e2b74c8930cc361c47cb9d35",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP07",
+          "levels": {
+            "C1": 1,
+            "C3": 2,
+            "C7": 1,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S07",
+          "image_path": "scene-binary-S07-7a9b296c829a.png",
+          "image_sha256": "7a9b296c829a8ce8bc73abb37202cf88963ee787477051e638cd4d534917cc81",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T009",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP02",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S02",
+          "image_path": "scene-binary-S02-f6955a3c3d4b.png",
+          "image_sha256": "f6955a3c3d4b4892f1ac65ce75a8702c4f09036339627c5141be584125a7c0a1",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP06",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 1
+          },
+          "image_id": "binary-S06",
+          "image_path": "scene-binary-S06-a1563dea23f1.png",
+          "image_sha256": "a1563dea23f114184bd936b5e689d8c0f2e06737e2b74c8930cc361c47cb9d35",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T010",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP08",
+          "levels": {
+            "C1": 2,
+            "C3": 3,
+            "C7": 1,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S08",
+          "image_path": "scene-binary-S08-0e2449e5e065.png",
+          "image_sha256": "0e2449e5e0659e02c484e43af8b2cf40dc0b6edb31fbc621984e4e49300549d8",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP09",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S09",
+          "image_path": "scene-binary-S09-0b3d67c278ab.png",
+          "image_sha256": "0b3d67c278ab0961bc60c554b9e0515a1c5aff75e158bbef62b6676fbc3a2a82",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T011",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP03",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S03",
+          "image_path": "scene-binary-S03-89ada4762c2e.png",
+          "image_sha256": "89ada4762c2eacfeaacf5536994af5e8938fc4f6ff72440dccbc0015ee26301f",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP10",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S10",
+          "image_path": "scene-binary-S10-05a0e0c0c4c0.png",
+          "image_sha256": "05a0e0c0c4c0fae9b4b49f9e4f98d9cfc00e928c3928896eb8f3924e02e22d08",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T012",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP05",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S05",
+          "image_path": "scene-binary-S05-b3825bfde2e7.png",
+          "image_sha256": "b3825bfde2e78f7a7f499589820e1ba642fec1bc38121eb582acd59f3a3c9749",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP07",
+          "levels": {
+            "C1": 1,
+            "C3": 2,
+            "C7": 1,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S07",
+          "image_path": "scene-binary-S07-7a9b296c829a.png",
+          "image_sha256": "7a9b296c829a8ce8bc73abb37202cf88963ee787477051e638cd4d534917cc81",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T013",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP05",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S05",
+          "image_path": "scene-binary-S05-b3825bfde2e7.png",
+          "image_sha256": "b3825bfde2e78f7a7f499589820e1ba642fec1bc38121eb582acd59f3a3c9749",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP08",
+          "levels": {
+            "C1": 2,
+            "C3": 3,
+            "C7": 1,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S08",
+          "image_path": "scene-binary-S08-0e2449e5e065.png",
+          "image_sha256": "0e2449e5e0659e02c484e43af8b2cf40dc0b6edb31fbc621984e4e49300549d8",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T014",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP05",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S05",
+          "image_path": "scene-binary-S05-b3825bfde2e7.png",
+          "image_sha256": "b3825bfde2e78f7a7f499589820e1ba642fec1bc38121eb582acd59f3a3c9749",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP11",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 2,
+            "C9": 1
+          },
+          "image_id": "binary-S11",
+          "image_path": "scene-binary-S11-d5103c296b14.png",
+          "image_sha256": "d5103c296b148df4d4fac0d4c507d1db45d873529c3682aadedbf3063cec4342",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T015",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP01",
+          "levels": {
+            "C1": 2,
+            "C3": 2,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S01",
+          "image_path": "scene-binary-S01-1c60fff25a01.png",
+          "image_sha256": "1c60fff25a01c77a9a304f7ee7d7cda414a8b8bdc71f45f88abfb71f36920ad3",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP09",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S09",
+          "image_path": "scene-binary-S09-0b3d67c278ab.png",
+          "image_sha256": "0b3d67c278ab0961bc60c554b9e0515a1c5aff75e158bbef62b6676fbc3a2a82",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T016",
+      "block_id": "B2",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP01",
+          "levels": {
+            "C1": 2,
+            "C3": 2,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S01",
+          "image_path": "scene-binary-S01-1c60fff25a01.png",
+          "image_sha256": "1c60fff25a01c77a9a304f7ee7d7cda414a8b8bdc71f45f88abfb71f36920ad3",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP10",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S10",
+          "image_path": "scene-binary-S10-05a0e0c0c4c0.png",
+          "image_sha256": "05a0e0c0c4c0fae9b4b49f9e4f98d9cfc00e928c3928896eb8f3924e02e22d08",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T017",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP04",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 2
+          },
+          "image_id": "binary-S04",
+          "image_path": "scene-binary-S04-76f8b060d78a.png",
+          "image_sha256": "76f8b060d78addd49d98e0b753f19a40c08a01df29574e014052123b1f6e5cf9",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP08",
+          "levels": {
+            "C1": 2,
+            "C3": 3,
+            "C7": 1,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S08",
+          "image_path": "scene-binary-S08-0e2449e5e065.png",
+          "image_sha256": "0e2449e5e0659e02c484e43af8b2cf40dc0b6edb31fbc621984e4e49300549d8",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T018",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP07",
+          "levels": {
+            "C1": 1,
+            "C3": 2,
+            "C7": 1,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S07",
+          "image_path": "scene-binary-S07-7a9b296c829a.png",
+          "image_sha256": "7a9b296c829a8ce8bc73abb37202cf88963ee787477051e638cd4d534917cc81",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP11",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 2,
+            "C9": 1
+          },
+          "image_id": "binary-S11",
+          "image_path": "scene-binary-S11-d5103c296b14.png",
+          "image_sha256": "d5103c296b148df4d4fac0d4c507d1db45d873529c3682aadedbf3063cec4342",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T019",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP06",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 1
+          },
+          "image_id": "binary-S06",
+          "image_path": "scene-binary-S06-a1563dea23f1.png",
+          "image_sha256": "a1563dea23f114184bd936b5e689d8c0f2e06737e2b74c8930cc361c47cb9d35",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP12",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S12",
+          "image_path": "scene-binary-S12-704af5ba8db0.png",
+          "image_sha256": "704af5ba8db0708df5a6f8a2c956472df622b4e913f9a1aba484d696030383b4",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T020",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP05",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S05",
+          "image_path": "scene-binary-S05-b3825bfde2e7.png",
+          "image_sha256": "b3825bfde2e78f7a7f499589820e1ba642fec1bc38121eb582acd59f3a3c9749",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP10",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S10",
+          "image_path": "scene-binary-S10-05a0e0c0c4c0.png",
+          "image_sha256": "05a0e0c0c4c0fae9b4b49f9e4f98d9cfc00e928c3928896eb8f3924e02e22d08",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T021",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP01",
+          "levels": {
+            "C1": 2,
+            "C3": 2,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S01",
+          "image_path": "scene-binary-S01-1c60fff25a01.png",
+          "image_sha256": "1c60fff25a01c77a9a304f7ee7d7cda414a8b8bdc71f45f88abfb71f36920ad3",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP03",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S03",
+          "image_path": "scene-binary-S03-89ada4762c2e.png",
+          "image_sha256": "89ada4762c2eacfeaacf5536994af5e8938fc4f6ff72440dccbc0015ee26301f",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T022",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP06",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 1
+          },
+          "image_id": "binary-S06",
+          "image_path": "scene-binary-S06-a1563dea23f1.png",
+          "image_sha256": "a1563dea23f114184bd936b5e689d8c0f2e06737e2b74c8930cc361c47cb9d35",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP10",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S10",
+          "image_path": "scene-binary-S10-05a0e0c0c4c0.png",
+          "image_sha256": "05a0e0c0c4c0fae9b4b49f9e4f98d9cfc00e928c3928896eb8f3924e02e22d08",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T023",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP02",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S02",
+          "image_path": "scene-binary-S02-f6955a3c3d4b.png",
+          "image_sha256": "f6955a3c3d4b4892f1ac65ce75a8702c4f09036339627c5141be584125a7c0a1",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP03",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S03",
+          "image_path": "scene-binary-S03-89ada4762c2e.png",
+          "image_sha256": "89ada4762c2eacfeaacf5536994af5e8938fc4f6ff72440dccbc0015ee26301f",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T024",
+      "block_id": "B3",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP08",
+          "levels": {
+            "C1": 2,
+            "C3": 3,
+            "C7": 1,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S08",
+          "image_path": "scene-binary-S08-0e2449e5e065.png",
+          "image_sha256": "0e2449e5e0659e02c484e43af8b2cf40dc0b6edb31fbc621984e4e49300549d8",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP11",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 2,
+            "C9": 1
+          },
+          "image_id": "binary-S11",
+          "image_path": "scene-binary-S11-d5103c296b14.png",
+          "image_sha256": "d5103c296b148df4d4fac0d4c507d1db45d873529c3682aadedbf3063cec4342",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T025",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP02",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S02",
+          "image_path": "scene-binary-S02-f6955a3c3d4b.png",
+          "image_sha256": "f6955a3c3d4b4892f1ac65ce75a8702c4f09036339627c5141be584125a7c0a1",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP07",
+          "levels": {
+            "C1": 1,
+            "C3": 2,
+            "C7": 1,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S07",
+          "image_path": "scene-binary-S07-7a9b296c829a.png",
+          "image_sha256": "7a9b296c829a8ce8bc73abb37202cf88963ee787477051e638cd4d534917cc81",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T026",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP09",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S09",
+          "image_path": "scene-binary-S09-0b3d67c278ab.png",
+          "image_sha256": "0b3d67c278ab0961bc60c554b9e0515a1c5aff75e158bbef62b6676fbc3a2a82",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP11",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 2,
+            "C9": 1
+          },
+          "image_id": "binary-S11",
+          "image_path": "scene-binary-S11-d5103c296b14.png",
+          "image_sha256": "d5103c296b148df4d4fac0d4c507d1db45d873529c3682aadedbf3063cec4342",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T027",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP06",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 1
+          },
+          "image_id": "binary-S06",
+          "image_path": "scene-binary-S06-a1563dea23f1.png",
+          "image_sha256": "a1563dea23f114184bd936b5e689d8c0f2e06737e2b74c8930cc361c47cb9d35",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP11",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 2,
+            "C9": 1
+          },
+          "image_id": "binary-S11",
+          "image_path": "scene-binary-S11-d5103c296b14.png",
+          "image_sha256": "d5103c296b148df4d4fac0d4c507d1db45d873529c3682aadedbf3063cec4342",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T028",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP01",
+          "levels": {
+            "C1": 2,
+            "C3": 2,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S01",
+          "image_path": "scene-binary-S01-1c60fff25a01.png",
+          "image_sha256": "1c60fff25a01c77a9a304f7ee7d7cda414a8b8bdc71f45f88abfb71f36920ad3",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP02",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 1,
+            "C8": 1,
+            "C9": 3
+          },
+          "image_id": "binary-S02",
+          "image_path": "scene-binary-S02-f6955a3c3d4b.png",
+          "image_sha256": "f6955a3c3d4b4892f1ac65ce75a8702c4f09036339627c5141be584125a7c0a1",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T029",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP07",
+          "levels": {
+            "C1": 1,
+            "C3": 2,
+            "C7": 1,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S07",
+          "image_path": "scene-binary-S07-7a9b296c829a.png",
+          "image_sha256": "7a9b296c829a8ce8bc73abb37202cf88963ee787477051e638cd4d534917cc81",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP09",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S09",
+          "image_path": "scene-binary-S09-0b3d67c278ab.png",
+          "image_sha256": "0b3d67c278ab0961bc60c554b9e0515a1c5aff75e158bbef62b6676fbc3a2a82",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T030",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP04",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 2
+          },
+          "image_id": "binary-S04",
+          "image_path": "scene-binary-S04-76f8b060d78a.png",
+          "image_sha256": "76f8b060d78addd49d98e0b753f19a40c08a01df29574e014052123b1f6e5cf9",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP09",
+          "levels": {
+            "C1": 2,
+            "C3": 1,
+            "C7": 2,
+            "C8": 3,
+            "C9": 3
+          },
+          "image_id": "binary-S09",
+          "image_path": "scene-binary-S09-0b3d67c278ab.png",
+          "image_sha256": "0b3d67c278ab0961bc60c554b9e0515a1c5aff75e158bbef62b6676fbc3a2a82",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T031",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP04",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 1,
+            "C9": 2
+          },
+          "image_id": "binary-S04",
+          "image_path": "scene-binary-S04-76f8b060d78a.png",
+          "image_sha256": "76f8b060d78addd49d98e0b753f19a40c08a01df29574e014052123b1f6e5cf9",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP05",
+          "levels": {
+            "C1": 3,
+            "C3": 2,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S05",
+          "image_path": "scene-binary-S05-b3825bfde2e7.png",
+          "image_sha256": "b3825bfde2e78f7a7f499589820e1ba642fec1bc38121eb582acd59f3a3c9749",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    },
+    {
+      "task_id": "V1T032",
+      "block_id": "B4",
+      "task_type": "experimental",
+      "alternatives": [
+        {
+          "alternative_id": "ALT1",
+          "profile_id": "BP03",
+          "levels": {
+            "C1": 3,
+            "C3": 1,
+            "C7": 2,
+            "C8": 2,
+            "C9": 2
+          },
+          "image_id": "binary-S03",
+          "image_path": "scene-binary-S03-89ada4762c2e.png",
+          "image_sha256": "89ada4762c2eacfeaacf5536994af5e8938fc4f6ff72440dccbc0015ee26301f",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        },
+        {
+          "alternative_id": "ALT2",
+          "profile_id": "BP12",
+          "levels": {
+            "C1": 1,
+            "C3": 3,
+            "C7": 2,
+            "C8": 3,
+            "C9": 1
+          },
+          "image_id": "binary-S12",
+          "image_path": "scene-binary-S12-704af5ba8db0.png",
+          "image_sha256": "704af5ba8db0708df5a6f8a2c956472df622b4e913f9a1aba484d696030383b4",
+          "image_status": "candidate_unvalidated",
+          "image_generated_for_profile": true,
+          "image_matches_profile": false
+        }
+      ]
+    }
+  ],
+  "report": {
+    "status": "system_v1_demo_not_formal",
+    "algorithm": "five-start pair subset exchange; four sweeps; 400 blocking candidates",
+    "seed": 20261031,
+    "prior": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "parameter_count": 9,
+    "profile_pool_size": 12,
+    "allowed_pair_count": 56,
+    "information_rank": 9,
+    "condition_number": 40.73437037796103,
+    "D_error_per_respondent": 1.6371384905223638,
+    "limitations": [
+      "qualitative visual levels; not physical units",
+      "restricted 12-image pool and zero priors",
+      "image review, pilot, design and sampling plan review pending"
+    ],
+    "level_counts": {
+      "C1": {
+        "1": 20,
+        "2": 24,
+        "3": 20
+      },
+      "C3": {
+        "1": 21,
+        "2": 23,
+        "3": 20
+      },
+      "C7": {
+        "1": 21,
+        "2": 43
+      },
+      "C8": {
+        "1": 20,
+        "2": 22,
+        "3": 22
+      },
+      "C9": {
+        "1": 22,
+        "2": 21,
+        "3": 21
+      }
+    },
+    "release_note": "定性水平的正式页面试填版；零先验、受限12图候选池。原报告数值保留；尚未经过完整审图与试填冻结，不声称全候选空间最优。"
+  }
+}

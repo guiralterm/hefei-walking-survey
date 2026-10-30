@@ -1,0 +1,5 @@
+*.zip
+*.csv
+*export*.json
+*answers*.json
+.DS_Store

@@ -1,0 +1,131 @@
+{
+  "study_id": "hefei-walking-sp",
+  "title": "合肥老城区 · 步行环境偏好研究",
+  "schema_version": "five-attributes-c7binary-v1",
+  "design_version": "pages-field-v1",
+  "phase": "pilot",
+  "tasks_per_person": 8,
+  "blocks": 4,
+  "alternatives_per_task": 2,
+  "attributes": [
+    {
+      "id": "C1",
+      "name": "人行道有效宽度",
+      "plain_title": "真正留给人走的地方有多宽",
+      "definition": "看人行道上能连续走过去的空间有多宽。树池、杆子等占住的地方，不算在里面。",
+      "example": "比如：经过树池时，是只能一个人通过，还是还能与别人并排或错身通过。这里只比较宽窄，不比较路面是否破损。",
+      "levels": [
+        {
+          "id": 1,
+          "label": "较窄",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "适中",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "较宽",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "name": "人车隔离设施",
+      "plain_title": "人走的地方和车走的地方怎么隔开",
+      "definition": "看人行道和车行道之间有没有栏杆等隔开，以及这些设施沿路是否连续。",
+      "example": "比如：没有栏杆、只有部分路段有栏杆，或沿路设置较完整。这里只比较隔离设施，不比较路上车多不多。",
+      "levels": [
+        {
+          "id": 1,
+          "label": "未设置",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "局部设置",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "较完整设置",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "C7",
+      "name": "行人导向标识",
+      "plain_title": "找路时，指路信息是否清楚",
+      "definition": "看需要辨别方向时，有没有写清目的地和箭头的行人指路牌，能不能看明白该往哪里走。",
+      "example": "本实验比较两种情况：缺少相关指路信息，或有看得清的目的地和箭头。不是比较广告数量。",
+      "levels": [
+        {
+          "id": 1,
+          "label": "缺少导向",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "导向清楚",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "C8",
+      "name": "街道可见绿量",
+      "plain_title": "走在这里，眼前能看到多少绿色植物",
+      "definition": "看从走路的位置向前望去，树叶、灌木等绿色植物在眼前占多少。",
+      "example": "比较的是眼睛能看到的绿量，不是这条路种了多少棵树，也不是周边公园有多大。",
+      "levels": [
+        {
+          "id": 1,
+          "label": "低",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "中",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "高",
+          "value": null
+        }
+      ]
+    },
+    {
+      "id": "C9",
+      "name": "沿街界面通透程度",
+      "plain_title": "路边底层的门窗，能不能看进去",
+      "definition": "看沿街建筑底层是实墙、遮住的门窗较多，还是能透过门窗看到后面的空间。",
+      "example": "比如：实墙或遮住的玻璃看不进去，透明且无遮挡的门窗可以看到里面。不是比较楼高不高，也不是比较店铺装修好不好。",
+      "levels": [
+        {
+          "id": 1,
+          "label": "封闭",
+          "value": null
+        },
+        {
+          "id": 2,
+          "label": "部分通透",
+          "value": null
+        },
+        {
+          "id": 3,
+          "label": "较高通透",
+          "value": null
+        }
+      ]
+    }
+  ],
+  "ui_version": "pages-ipad-v1",
+  "parameter_count": 9,
+  "edition": "正式调查版 V1",
+  "storage_mode": "device-indexeddb"
+}
