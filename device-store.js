@@ -29,12 +29,14 @@ function open(){
  }
  return databasePromise;
 }
-async function beginTransaction(mode){
+async function transaction(mode,run){
+ let tx;
  for(let attempt=0;attempt<2;attempt++){
   const connection=open(),db=await connection;
   try{
-   try{return db.transaction(['records','settings'],mode,{durability:'strict'});}
-   catch(error){if(error.name!=='TypeError')throw error;return db.transaction(['records','settings'],mode);}
+   try{tx=db.transaction(['records','settings'],mode,{durability:'strict'});}
+   catch(error){if(error.name!=='TypeError')throw error;tx=db.transaction(['records','settings'],mode);}
+   break;
   }catch(error){
    // Safari may invalidate an idle/background connection without firing close.
    // Retry only transaction creation: an already-started write is never replayed.
@@ -44,8 +46,8 @@ async function beginTransaction(mode){
    if(attempt===1)throw Error('设备存储连接暂时不可用，请关闭重复的问卷标签页后刷新重试。已保存答卷不会被本操作删除，请勿清理网站数据。');
   }
  }
-}
-async function transaction(mode,run){const tx=await beginTransaction(mode);return new Promise((resolve,reject)=>{
+ // Attach handlers and enqueue requests without awaiting after creating a transaction.
+ return new Promise((resolve,reject)=>{
  let value,failure;const set=v=>{value=v;};const fail=error=>{failure=error;tx.abort();};
  tx.oncomplete=()=>resolve(value);tx.onabort=()=>reject(failure||Error('未能保存，答卷没有被标记为提交。请检查设备剩余空间。'));tx.onerror=()=>{};
  try{run(tx,set,fail);}catch(err){fail(err);}
