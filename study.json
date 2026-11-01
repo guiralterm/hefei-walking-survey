@@ -2,8 +2,8 @@
   "study_id": "hefei-walking-sp",
   "title": "合肥老城区 · 步行环境偏好研究",
   "schema_version": "five-attributes-c7binary-v1",
-  "design_version": "pages-field-v1",
-  "phase": "pilot",
+  "design_version": "pages-field-formal-v1",
+  "phase": "formal",
   "tasks_per_person": 8,
   "blocks": 4,
   "alternatives_per_task": 2,
@@ -124,8 +124,95 @@
       ]
     }
   ],
-  "ui_version": "pages-ipad-v1",
+  "ui_version": "pages-ipad-formal-v1",
   "parameter_count": 9,
   "edition": "正式调查版 V1",
-  "storage_mode": "device-indexeddb"
+  "storage_mode": "device-indexeddb",
+  "field_segments": [
+    {
+      "id": "A1",
+      "road": "长江中路",
+      "label": "长江中路 A1"
+    },
+    {
+      "id": "A2",
+      "road": "长江中路",
+      "label": "长江中路 A2"
+    },
+    {
+      "id": "A3",
+      "road": "长江中路",
+      "label": "长江中路 A3"
+    },
+    {
+      "id": "A4",
+      "road": "长江中路",
+      "label": "长江中路 A4"
+    },
+    {
+      "id": "B1",
+      "road": "寿春路",
+      "label": "寿春路 B1"
+    },
+    {
+      "id": "B2",
+      "road": "寿春路",
+      "label": "寿春路 B2"
+    },
+    {
+      "id": "B3",
+      "road": "寿春路",
+      "label": "寿春路 B3"
+    },
+    {
+      "id": "C1",
+      "road": "阜阳北路",
+      "label": "阜阳北路 C1"
+    },
+    {
+      "id": "C2",
+      "road": "阜阳北路",
+      "label": "阜阳北路 C2"
+    },
+    {
+      "id": "C3",
+      "road": "阜阳北路",
+      "label": "阜阳北路 C3"
+    },
+    {
+      "id": "D1",
+      "road": "蒙城路",
+      "label": "蒙城路 D1"
+    },
+    {
+      "id": "D2",
+      "road": "蒙城路",
+      "label": "蒙城路 D2"
+    },
+    {
+      "id": "D3",
+      "road": "蒙城路",
+      "label": "蒙城路 D3"
+    },
+    {
+      "id": "E1",
+      "road": "徽州大道",
+      "label": "徽州大道 E1"
+    },
+    {
+      "id": "E2",
+      "road": "徽州大道",
+      "label": "徽州大道 E2"
+    },
+    {
+      "id": "F1",
+      "road": "金寨路",
+      "label": "金寨路 F1"
+    },
+    {
+      "id": "F2",
+      "road": "金寨路",
+      "label": "金寨路 F2"
+    }
+  ]
 }

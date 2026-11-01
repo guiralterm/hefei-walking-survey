@@ -1,6 +1,7 @@
 /* The public site sends no answers to any server. All survey writes are IndexedDB transactions. */
 (()=>{
 const DB_NAME='hefei-walking-field-v1',FORMAT='hefei-pages-device-v1';
+const SEGMENT_IDS=new Set(['A1','A2','A3','A4','B1','B2','B3','C1','C2','C3','D1','D2','D3','E1','E2','F1','F2']);
 let databasePromise,configPromise;
 const clone=value=>structuredClone(value);
 function randomInt(n){const array=new Uint32Array(1),limit=4294967296-(4294967296%n);do{crypto.getRandomValues(array);}while(array[0]>=limit);return array[0]%n;}
@@ -69,6 +70,7 @@ async function api(path,body){
     const all=request.result;const prior=all.find(r=>r.request_id===body.request_id);if(prior){set(current(prior));return;}
     read(settings,'device',device=>{const deviceId=device?.value||crypto.randomUUID();if(!device)settings.put({key:'device',value:deviceId});
      read(settings,'segment',segment=>{
+      if(config.phase==='formal'&&!SEGMENT_IDS.has(segment?.value)){fail(Error('请先由研究者在页面底部“本设备采集管理”中选择本次采集路段，再开始正式问卷。'));return;}
       const blocks=[...new Set(design.tasks.map(t=>t.block_id))];const counts=Object.fromEntries(blocks.map(b=>[b,all.filter(r=>r.design_version===config.design_version&&r.block_id===b).length]));const least=Math.min(...Object.values(counts));const available=blocks.filter(b=>counts[b]===least);const block=available[randomInt(available.length)];
       const record={respondent_id:crypto.randomUUID(),request_id:body.request_id,device_id:deviceId,phase:config.phase,design_version:config.design_version,schema_version:config.schema_version,block_id:block,age_group:body.age_group,created_at:Date.now()/1000,completed_at:null,complete:false,segment_id:segment?.value||'',recruitment_channel:'ipad-field',survey_config:clone(config),plan:makePlan(design,block),responses:{}};
       records.add(record);settings.put({key:'active',value:record.respondent_id});set(current(record));
@@ -92,7 +94,7 @@ async function api(path,body){
  throw Error('本静态页面没有服务器接口。');
 }
 async function exportData(){const {config}=await definitions();return transaction('readonly',(tx,set)=>{const records=tx.objectStore('records').getAll();records.onsuccess=()=>read(tx.objectStore('settings'),'device',device=>set({format:FORMAT,export_id:crypto.randomUUID(),exported_at:new Date().toISOString(),device_id:device?.value||null,study_version:config.design_version,records:clone(records.result)}));});}
-async function setSegment(value){if(!/^(?:[A-F][1-4])?$/.test(value))throw Error('路段编号无效。');return transaction('readwrite',(tx,set)=>{tx.objectStore('settings').put({key:'segment',value});set(true);});}
+async function setSegment(value){if(value!==''&&!SEGMENT_IDS.has(value))throw Error('请从既定17个研究路段中选择。');return transaction('readwrite',(tx,set)=>{tx.objectStore('settings').put({key:'segment',value});set(true);});}
 async function getSegment(){return transaction('readonly',(tx,set)=>read(tx.objectStore('settings'),'segment',entry=>set(entry?.value||'')));}
 async function activeSession(){try{return await transaction('readonly',(tx,set,fail)=>active(tx,r=>set(current(r)),fail));}catch{return null;}}
 async function leaveIncomplete(){return transaction('readwrite',(tx,set)=>{tx.objectStore('settings').put({key:'active',value:null});set(true);});}

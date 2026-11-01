@@ -1,5 +1,5 @@
 {
-  "design_version": "pages-field-v1",
+  "design_version": "pages-field-formal-v1",
   "tasks": [
     {
       "task_id": "V1T001",
@@ -1366,6 +1366,6 @@
         "3": 21
       }
     },
-    "release_note": "定性水平的正式页面试填版；零先验、受限12图候选池。原报告数值保留；尚未经过完整审图与试填冻结，不声称全候选空间最优。"
+    "release_note": "研究者授权正式采集；沿用原定性属性、12图候选池和零先验题组；未声称全组合最优或全部独立视觉复核完成。"
   }
 }
